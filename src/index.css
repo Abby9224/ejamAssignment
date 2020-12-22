@@ -6,8 +6,52 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+/* Initial reset */
+*, *::before, *::after {margin: 0;padding: 0;box-sizing: border-box;}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Generic rules */
+h4 {
+  font-size: 19px;
+  color: #949698;
 }
+
+/* Header */
+header.header {
+  /* box-shadow: 0 2px 5px rgba(0,0,0,.4); */
+  border-bottom: 1px solid #ececec;
+  margin: 0;
+  padding: 10px;
+  position: relative;
+}
+.header .add-deployment-btn {
+  position: absolute;
+  top: 3rem;
+  left: 2rem;
+  font-size: 28px;
+}
+.header a h1 {
+  font-size: 28px;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  position: relative;
+  top: -6px;
+}
+
+div.App {
+  /* background-image: url('./img/ejamTask.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw; */
+  /* margin-top: 40px; */
+}
+
+/* Form */
+form.deployment-form {line-height: 2.8rem}
+form.deployment-form div#btn-align {
+  margin: 5px auto;
+  /* text-align: center; */
+  background: none;
+  line-height: 4rem;
+}
+form.deployment-form div#btn-align .btn {width: 85vw}
