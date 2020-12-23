@@ -1,4 +1,4 @@
-[{"template_name":"Aerified","version":"3.39"},
+mock_data = [{"template_name":"Aerified","version":"3.39"},
 {"template_name":"Pannier","version":"0.17"},
 {"template_name":"Hatity","version":"3.0"},
 {"template_name":"Hatity","version":"6.63"},
