@@ -7,7 +7,6 @@ class Home extends Component {
     return(
       <div className="container">
         <h4 className="center">Deployments list</h4>
-        
       </div>
     );
   }
@@ -16,7 +15,7 @@ class Home extends Component {
 // Mapping state to props:
 const mapStateToProps = (state) => {
   return {
-    posts: state.posts
+    deployment: state.deployment
   }
 }
 
