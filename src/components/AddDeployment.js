@@ -14,12 +14,12 @@ class AddDeployment extends Component {
   }
 
   // const mockdata = 'https://gist.github.com/Abby9224/52b02e53cfdb3aa5b2a08c458464531d';
-  const mock_data = '/MOCK_DATA.json';
-  renderMockData() {
-    for(var i = 0; i < mock_data.length; i++) {
-      console.log(mock_data[i]);
-    }
-  }
+  // const mock_data = '/MOCK_DATA.json';
+  // renderMockData() {
+  //   for(var i = 0; i < mock_data.length; i++) {
+  //     console.log(mock_data[i]);
+  //   }
+  // }
 
 
   handleChange(event) {
